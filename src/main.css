@@ -1,0 +1,171 @@
+body {
+    background-color: #d1ccdc;
+  }
+  
+  .plans {
+    color: black;
+  }
+  
+  .plans h1 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 40px;
+  }
+  
+  .plansList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  
+  .filterLine {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .custom-select{
+    padding: 2px;
+  }
+  
+  .plan {
+    width: 300px;
+    *height: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: #424C55;
+    cursor: pointer;
+    color: #f5EDF0
+  }
+  
+  .part {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffc2e9;
+    padding-left: 5px;
+    padding-right: 5px;
+    pointer: cursor
+  }
+  
+  .plan p {
+    margin: 7px;
+  }
+  
+  .border {
+    border: 1px solid red;
+  }
+  
+  .insidePlan {
+    *background-color: #ffd7e8;
+    text-align: center;
+  }
+  
+  .buttonInsidePlan {
+    background-color: #3D2C2E;
+    height: 40px;
+    border: none;
+    color: #f5edf0;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    *outline-style: none;
+    box-shadow: 5px 8px 16px 0 #886f68, 5px 6px 20px 0 #424c55;
+    cursor: pointer;
+  }
+  
+  .marginButton {
+    padding: 15px;
+  }
+  
+  .centerButton {
+    display: block;
+    margin: auto;
+  }
+  
+  
+  .planInfo {
+    background-image: radial-gradient(#424c55, #d1ccdc, #f5edf0);
+    padding: 10px;
+    *width: 300px;
+    margin: auto;
+  }
+  
+  .planPartsList {
+    margin: 10px;
+    background-image: linear-gradient(#424C55, #d1ccdc, #f5edf0);
+  }
+  
+  .planPartsListTitle {
+    padding-top: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 20px;
+  }
+  
+  .planPartsCompleteList {
+    background-image: linear-gradient(#424C55, #d1ccdc, #f5edf0);
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .buttonDisplay{
+    font-size: 30px;
+  }
+  
+  .buttonTimer {
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #424c55;
+    color: #f5edf0;
+    border: none;
+    font-variant: small-caps;
+  }
+  
+  .exerciseImage {
+    height: 500px;
+    width: auto;
+    background-color: #F2C0FF
+  }
+  
+  .defaultImage {
+    height: 500px;
+    width: 200px;
+    background-color: #F2C0FF
+  }
+  
+  .arrowButtons {
+    position: relative;
+    background-color: #424c55;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: none;
+    margin: 20px;
+    *top: -250px;
+  }
+  
+  .arrow {
+    border: solid #F5EDF0;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: -10px;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-left: 10px;
+  }
